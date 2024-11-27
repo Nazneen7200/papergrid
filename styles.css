@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.top-bar {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    font-size: 14px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+}
+
+.navbar .menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .menu li {
+    margin: 0 10px;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .icons a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px;
+    width:1200px;
+    margin-left: 70px;
+}
+
+.product {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    background: transparent;
+
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 0em;
+}
+
+.founder {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.founder img {
+    max-width: 400px;
+    width: 402px;
+    height: -517px;
+    border-radius: 0;
+   margin-left: 85px;
+}
+.founder-description{
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-bottom: 253px;
+    margin-right: -34px;
+    text-align: left;
+}
+.founder button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-contact {
+    margin-bottom: 20px;
+}
+.footer-contact fa{
+    font-size: 24px;
+    }
+.icon icon-account{
+    font-size: medium;
+
+}
+.icon icon-cart-empty{
+    font-size: medium;
+    margin-right: 10px;
+}
